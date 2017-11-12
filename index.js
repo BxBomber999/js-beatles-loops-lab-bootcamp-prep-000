@@ -13,6 +13,7 @@ function johnLennonFacts(facts){
     newArr.push(`${fact[i]}!!!`)
     facts.shift()
   }
+  return newArr
 }
 
 function iLoveTheBeatles(n){
@@ -21,4 +22,5 @@ function iLoveTheBeatles(n){
     newArr.push("I love the Beatles!")
     n++
   } while(n<15);
+  return newArr
 }
